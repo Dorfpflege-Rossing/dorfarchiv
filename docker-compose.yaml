@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - POCKETBASE_URL=${POCKETBASE_URL:-https://your-pocketbase.example.com}
+      - POCKETBASE_GROUP=${POCKETBASE_GROUP:-members}
+      - PORT=3000
+    env_file:
+      - .env.local
