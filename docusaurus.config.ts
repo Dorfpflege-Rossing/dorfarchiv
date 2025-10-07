@@ -1,6 +1,6 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import type * as Preset from '@docusaurus/preset-classic'
+import type { Config } from '@docusaurus/types'
+import { themes as prismThemes } from 'prism-react-renderer'
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -52,7 +52,8 @@ const config: Config = {
           path: 'unterlagen',
           routeBasePath: 'unterlagen',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/Dorfpflege-Rossing/dorfarchiv/edit/main/',
+          editUrl:
+            'https://github.com/Dorfpflege-Rossing/dorfarchiv/edit/main/',
         },
         blog: {
           path: 'berichte',
@@ -62,7 +63,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/Dorfpflege-Rossing/dorfarchiv/edit/main/',
+          editUrl:
+            'https://github.com/Dorfpflege-Rossing/dorfarchiv/edit/main/',
           blogTitle: 'Berichte',
           blogDescription: 'Berichte und Geschichten aus Rössing',
           blogSidebarTitle: 'Alle Berichte',
@@ -91,8 +93,8 @@ const config: Config = {
           position: 'left',
           label: 'Unterlagen',
         },
-        {to: '/berichte', label: 'Berichte', position: 'left'},
-        {to: '/changelog', label: 'Changelog', position: 'left'},
+        { to: '/berichte', label: 'Berichte', position: 'left' },
+        { to: '/changelog', label: 'Changelog', position: 'left' },
         {
           href: 'https://github.com/Dorfpflege-Rossing/dorfarchiv',
           label: 'GitHub',
@@ -142,6 +144,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-};
+}
 
-export default config;
+export default config

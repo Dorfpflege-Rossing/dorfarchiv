@@ -1,39 +1,39 @@
 {
-	"name": "Node.js & TypeScript",
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
-	"features": {
-		"ghcr.io/devcontainers/features/common-utils:2": {},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
-	},
-	"postCreateCommand": "npm install",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"unifiedjs.vscode-mdx",
-				"streetsidesoftware.code-spell-checker",
-				"streetsidesoftware.code-spell-checker-german",
-				"tomoki1207.pdf",
-				"DavidAnson.vscode-markdownlint",
-				"biomejs.biome"
-			],
-			"settings": {
-				"terminal.integrated.defaultProfile.linux": "zsh",
-				"cSpell.language": "de-DE",
-				"cSpell.words": [
-					"Barnten",
-					"Elze",
-					"Großteilige",
-					"Ludolph",
-					"Masch",
-					"Nordstemmen",
-					"Rössing",
-					"Rössingbach",
-					"Rössinger",
-					"Rössings",
-					"Welfenschloss"
-				],
-				"editor.defaultFormatter": "biomejs.biome"
-			}
-		}
-	}
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "unifiedjs.vscode-mdx",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-german",
+        "tomoki1207.pdf",
+        "DavidAnson.vscode-markdownlint",
+        "biomejs.biome"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "cSpell.language": "de-DE",
+        "cSpell.words": [
+          "Barnten",
+          "Elze",
+          "Großteilige",
+          "Ludolph",
+          "Masch",
+          "Nordstemmen",
+          "Rössing",
+          "Rössingbach",
+          "Rössinger",
+          "Rössings",
+          "Welfenschloss"
+        ],
+        "editor.defaultFormatter": "biomejs.biome"
+      }
+    }
+  }
 }

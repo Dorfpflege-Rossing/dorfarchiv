@@ -1,14 +1,14 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import Heading from '@theme/Heading'
+import Layout from '@theme/Layout'
+import clsx from 'clsx'
+import type { ReactNode } from 'react'
 
-import styles from './index.module.css';
+import styles from './index.module.css'
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext()
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -19,27 +19,40 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/unterlagen/intro">
+            to="/unterlagen/intro"
+          >
             Zu den Unterlagen
           </Link>
           <Link
             className="button button--primary button--lg"
             to="/berichte"
-            style={{marginLeft: '1rem'}}>
+            style={{ marginLeft: '1rem' }}
+          >
             Berichte lesen
           </Link>
         </div>
       </div>
     </header>
-  );
+  )
 }
 
-function FeatureCard({title, description, icon}: {title: string; description: string; icon: string}) {
+function FeatureCard({
+  title,
+  description,
+  icon,
+}: {
+  title: string
+  description: string
+  icon: string
+}) {
   return (
     <div className="col col--4">
-      <div className="card shadow--md margin-bottom--lg padding--lg" style={{height: '100%'}}>
+      <div
+        className="card shadow--md margin-bottom--lg padding--lg"
+        style={{ height: '100%' }}
+      >
         <div className="text--center">
-          <div style={{fontSize: '3rem'}}>{icon}</div>
+          <div style={{ fontSize: '3rem' }}>{icon}</div>
         </div>
         <div className="text--center margin-top--md">
           <h3>{title}</h3>
@@ -47,13 +60,16 @@ function FeatureCard({title, description, icon}: {title: string; description: st
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 function HomepageContent() {
   return (
     <>
-      <section className="padding-vert--xl" style={{backgroundColor: 'var(--ifm-color-emphasis-100)'}}>
+      <section
+        className="padding-vert--xl"
+        style={{ backgroundColor: 'var(--ifm-color-emphasis-100)' }}
+      >
         <div className="container">
           <div className="row">
             <div className="col col--8 col--offset-2 text--center">
@@ -61,9 +77,9 @@ function HomepageContent() {
                 Willkommen im digitalen Dorfarchiv Rössing
               </Heading>
               <p className="hero__subtitle">
-                Rössing ist ein Dorf in der Gemeinde Nordstemmen im Landkreis Hildesheim.
-                Dieses digitale Archiv bewahrt die Geschichte und Geschichten unseres Dorfes
-                für kommende Generationen.
+                Rössing ist ein Dorf in der Gemeinde Nordstemmen im Landkreis
+                Hildesheim. Dieses digitale Archiv bewahrt die Geschichte und
+                Geschichten unseres Dorfes für kommende Generationen.
               </p>
             </div>
           </div>
@@ -92,7 +108,10 @@ function HomepageContent() {
         </div>
       </section>
 
-      <section className="padding-vert--xl" style={{backgroundColor: 'var(--ifm-color-emphasis-100)'}}>
+      <section
+        className="padding-vert--xl"
+        style={{ backgroundColor: 'var(--ifm-color-emphasis-100)' }}
+      >
         <div className="container">
           <div className="row">
             <div className="col col--10 col--offset-1 text--center">
@@ -102,9 +121,10 @@ function HomepageContent() {
               <div className="avatar avatar--vertical margin-bottom--lg">
                 <div className="avatar__intro">
                   <p className="hero__subtitle">
-                    Unser Ziel ist es, die reichhaltige Geschichte Rössings zu dokumentieren und
-                    zugänglich zu machen. Von alten Fotografien über Zeitungsartikel bis hin zu
-                    persönlichen Erinnerungen – jedes Dokument trägt dazu bei, das kollektive
+                    Unser Ziel ist es, die reichhaltige Geschichte Rössings zu
+                    dokumentieren und zugänglich zu machen. Von alten
+                    Fotografien über Zeitungsartikel bis hin zu persönlichen
+                    Erinnerungen – jedes Dokument trägt dazu bei, das kollektive
                     Gedächtnis unseres Dorfes zu bewahren.
                   </p>
                 </div>
@@ -112,7 +132,8 @@ function HomepageContent() {
               <div className="margin-top--lg">
                 <Link
                   className="button button--primary button--lg"
-                  to="/unterlagen/intro">
+                  to="/unterlagen/intro"
+                >
                   Mehr erfahren
                 </Link>
               </div>
@@ -121,19 +142,19 @@ function HomepageContent() {
         </div>
       </section>
     </>
-  );
+  )
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title={`Willkommen`}
-      description="Digitales Dorfarchiv Rössing - Geschichte und Geschichten aus Rössing bewahren">
+      description="Digitales Dorfarchiv Rössing - Geschichte und Geschichten aus Rössing bewahren"
+    >
       <HomepageHeader />
       <main>
         <HomepageContent />
       </main>
     </Layout>
-  );
+  )
 }
