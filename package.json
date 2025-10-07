@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "cp node_modules/pocketbase/dist/pocketbase.umd.js static/public/pocketbase.umd.js && docusaurus build",
+    "start": "docusaurus start -h 0.0.0.0",
+    "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -16,10 +16,10 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.8.1",
+    "@docusaurus/faster": "^3.9.1",
     "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
-    "pocketbase": "^0.26.2",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
