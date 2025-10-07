@@ -1,0 +1,15 @@
+hawk:
+  label: HAWK
+  description: Beiträge zur Zusammenarbeit mit der HAWK Hildesheim
+
+studienprojekt:
+  label: Studienprojekt
+  description: Studentische Projektarbeiten und Studien
+
+dorfstudie:
+  label: Dorfstudie
+  description: Studien und Analysen zum Dorf Rössing
+
+architektur:
+  label: Architektur
+  description: Architektonische Projekte und Planungen
