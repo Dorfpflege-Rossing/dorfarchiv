@@ -42,6 +42,12 @@ Für Fachleute und Interessierte mit CAD-Software stehen zusätzliche Planungsun
 - **[Plan Baualter und Grundlage](./baualter-grundlage.dwg)** (DWG, 5.9 MB)
 - **[Lageplangrundlage Adobe Illustrator](./lageplan-grundlage-illustrator.zip)** (ZIP, 17 MB)
 
+## Lizenz
+
+Alle Unterlagen dieses HAWK-Projekts wurden von den Autorinnen Lea von Berg, Felina Freiberg, Caroline Rabe und Charlotte Schemm unter der [Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de) veröffentlicht.
+
+Sie dürfen das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten sowie remixen, verändern und darauf aufbauen, auch kommerziell, solange Sie angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
+
 ## Ausblick
 
 Die im Projekt entwickelten zukunftsweisenden Ideen sind momentan aufgrund fehlender verkehrstechnischer Voraussetzungen nur schwer im Dorf zu realisieren. In der Diskussion wurden jedoch Perspektiven aufgezeigt, die zur weiteren Kooperation zwischen Rössing und der HAWK anregen.

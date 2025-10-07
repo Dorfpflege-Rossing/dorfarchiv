@@ -137,7 +137,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Levin Keller. Erstellt mit Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Levin Keller. Erstellt mit Docusaurus.<br/>Inhalte: <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" target="_blank" rel="noopener noreferrer">CC0</a> (falls nicht anders geregelt) · Code: <a href="https://github.com/Dorfpflege-Rossing/dorfarchiv/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a>`,
     },
     prism: {
       theme: prismThemes.github,

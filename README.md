@@ -1,6 +1,22 @@
-# Website
+# Digitales Dorfarchiv Rössing
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Dieses digitale Archiv dokumentiert die Geschichte und Geschichten aus Rössing. Die Website wurde mit [Docusaurus](https://docusaurus.io/) erstellt, einem modernen Static-Site-Generator.
+
+## Lizenzierung
+
+Dieses Projekt verwendet ein Doppellizenz-Modell:
+
+### Inhalte (Content)
+
+- **Standard-Lizenz**: Alle Inhalte des Archivs (Texte, Bilder, Dokumente) stehen unter der [**CC0 1.0 Universal (Public Domain)**](https://creativecommons.org/publicdomain/zero/1.0/deed.de), sofern nicht ausdrücklich anders angegeben.
+
+- **HAWK-Projektunterlagen**: Die Unterlagen des HAWK Studienprojekts (Projektdokumentation, Karten, CAD-Dateien) wurden von den Autorinnen Lea von Berg, Felina Freiberg, Caroline Rabe und Charlotte Schemm erstellt und stehen unter der [**Creative Commons Namensnennung 4.0 International (CC BY 4.0)**](https://creativecommons.org/licenses/by/4.0/deed.de).
+
+### Source Code
+
+Der Quellcode dieser Website (alle `.ts`, `.tsx`, `.js`, `.jsx`, `.css` und Konfigurationsdateien) ist unter der [**MIT-Lizenz**](./LICENSE) lizenziert.
+
+**Zusammengefasst**: Sie können die Inhalte frei verwenden (CC0/CC BY 4.0) und den Code frei nutzen, modifizieren und verteilen (MIT).
 
 ## Installation
 
