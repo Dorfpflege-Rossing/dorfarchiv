@@ -36,6 +36,14 @@ const config: Config = {
     locales: ['de'],
   },
 
+  scripts: [
+    {
+      src: 'https://analytics.levinkeller.de/js/script.js',
+      defer: true,
+      'data-domain': 'archiv.xn--rssing-wxa.de',
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -114,10 +122,6 @@ const config: Config = {
             {
               label: 'Impressum',
               to: '/impressum',
-            },
-            {
-              label: 'Datenschutz',
-              to: '/datenschutz',
             },
           ],
         },

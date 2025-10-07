@@ -5,12 +5,16 @@ Alle wichtigen Änderungen am Dorfarchiv werden hier dokumentiert, sortiert nach
 ## 2025-10-07
 
 ### Hinzugefügt
+- Analytics-Integration (Plausible Analytics) für Besucherstatistiken
 - Changelog-Seite zur Dokumentation aller Änderungen
 - Tag-Definitionen für Berichte (HAWK, Studienprojekt, Dorfstudie, Architektur)
 - Changelog im Hauptmenü verlinkt
 
 ### Geändert
 - HAWK-Bericht erweitert mit Ortsangabe
+
+### Entfernt
+- Datenschutzerklärung (datenschutz.md) entfernt
 
 ## 2025-10-07
 
