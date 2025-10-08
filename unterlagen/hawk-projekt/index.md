@@ -11,6 +11,7 @@ Im Rahmen des Bachelorstudiengangs Architektur an der HAWK Hildesheim (Fakultät
 Mit der Teilnahme am Regional-Wettbewerb „Unser Dorf hat Zukunft" wurde die HAWK Hildesheim auf Rössing aufmerksam. Im Modul „Regionales Bauen" entwickelte eine Gruppe von vier Studentinnen ihre Visionen für attraktive Quartiere in Rössing.
 
 **Projektteam:**
+
 - Lea von Berg
 - Felina Freiberg
 - Caroline Rabe
@@ -41,6 +42,12 @@ Für Fachleute und Interessierte mit CAD-Software stehen zusätzliche Planungsun
 - **[Lageplan Rössing Grundlage](./lageplan-grundlage.dwg)** (DWG, 1.9 MB)
 - **[Plan Baualter und Grundlage](./baualter-grundlage.dwg)** (DWG, 5.9 MB)
 - **[Lageplangrundlage Adobe Illustrator](./lageplan-grundlage-illustrator.zip)** (ZIP, 17 MB)
+
+### InDesign-Projekt
+
+- **[Komplettes InDesign-Projekt](./indesign-projekt.zip)** (ZIP, 244 MB)
+
+  Das vollständige InDesign-Projekt mit allen Layoutdateien, platzierten Bildern, PDFs und Schriften. Dies ist der Quellcode für die oben verlinkte PDF-Datei "HAWK Studienprojekt Rössing - Dorfstudie". Enthält die `.indd`/`.idml` Projektdateien sowie die Ordner `Links/` und `Document fonts/`.
 
 ## Lizenz
 
