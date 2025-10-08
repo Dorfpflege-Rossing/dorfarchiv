@@ -5,7 +5,6 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start -h 0.0.0.0",
-    "prebuild": "git lfs pull || echo 'Git LFS pull skipped (not available or already pulled)'",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
