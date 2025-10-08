@@ -3,7 +3,8 @@
   "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/conda:1": {}
   },
   "postCreateCommand": "npm install",
   "customizations": {
@@ -14,7 +15,8 @@
         "streetsidesoftware.code-spell-checker-german",
         "tomoki1207.pdf",
         "DavidAnson.vscode-markdownlint",
-        "biomejs.biome"
+        "biomejs.biome",
+        "Anthropic.claude-code"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "zsh",
