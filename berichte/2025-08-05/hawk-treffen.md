@@ -11,11 +11,9 @@ Mit der Teilnahme am Regional-Wettbewerb „Unser Dorf hat Zukunft" wurde die HA
 
 <!--truncate-->
 
-![Das studentische Team](./team.jpeg)
+![Präsentation der Studienarbeit](./praesentation.jpeg)
 
 Eine der Gruppen setzt sich aus den vier Studentinnen Lea von Berg, Felina Freiberg, Caroline Rabe und Charlotte Schemm zusammen, die laut Vorgabe der Fachbereichsleitung innerhalb von nur vier Wochen ihre Visionen für eine Optimierung von attraktiven Quartieren in Rössing entwerfen sollten. Mit großem Engagement und Begeisterung stellten sie um 15 Uhr ihre Projektarbeit in der ihnen vorgegebenen Zeit von nur 15 Minuten vor. Unsere kleine Delegation (Heike Gollub, Udo Noack, Peter Winkler) war in höchstem Maße angetan. Aber, die zukunftsweisenden Ideen, insbesondere im Bereich DGH, Rnah, Pfarrhaus und Kindergarten, sind momentan nur schwer im Dorf zu realisieren, da verkehrstechnische Voraussetzungen für eine Umsetzung fehlen.
-
-![Präsentation der Studienarbeit](./praesentation.jpeg)
 
 Allerdings wurden in der anschließenden Diskussion Perspektiven aufgezeigt, die zielführend sind und zur weiteren Kooperation anregen. Wir Rössinger sprachen dem studentischen Quartett sowie Frau Prof. Dr. Ines Lüders eine Einladung nach Rössing aus. Nach den Semesterferien wolle man sich treffen, um eine zukünftige Zusammenarbeit auszuloten.
 
