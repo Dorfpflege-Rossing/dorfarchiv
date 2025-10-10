@@ -94,6 +94,7 @@ const config: Config = {
           label: 'Unterlagen',
         },
         { to: '/berichte', label: 'Berichte', position: 'left' },
+        { to: '/unterlagen/faq', label: 'FAQ', position: 'left' },
         { to: '/changelog', label: 'Changelog', position: 'left' },
         {
           href: 'https://github.com/Dorfpflege-Rossing/dorfarchiv',
@@ -124,6 +125,10 @@ const config: Config = {
             {
               label: 'Impressum',
               to: '/impressum',
+            },
+            {
+              label: 'FAQ',
+              to: '/unterlagen/faq',
             },
           ],
         },
