@@ -1,6 +1,6 @@
 ---
-sidebar_position: 99
-sidebar_label: FAQ
+title: FAQ
+description: Häufig gestellte Fragen zum digitalen Dorfarchiv Rössing
 ---
 
 # Häufig gestellte Fragen (FAQ)
