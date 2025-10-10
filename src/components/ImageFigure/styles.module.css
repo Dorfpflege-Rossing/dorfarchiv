@@ -1,0 +1,20 @@
+.imageWithCaption {
+  margin: 2rem auto;
+  text-align: center;
+  max-width: 100%;
+}
+
+.imageWithCaption img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.imageCaption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-600);
+  font-style: italic;
+  text-align: center;
+}

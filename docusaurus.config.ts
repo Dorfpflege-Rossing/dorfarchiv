@@ -1,6 +1,7 @@
 import type * as Preset from '@docusaurus/preset-classic'
 import type { Config } from '@docusaurus/types'
 import { themes as prismThemes } from 'prism-react-renderer'
+import remarkImageFigcaption from './src/plugins/remark-image-figcaption.mjs'
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -54,6 +55,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/Dorfpflege-Rossing/dorfarchiv/edit/main/',
+          beforeDefaultRemarkPlugins: [remarkImageFigcaption],
         },
         blog: {
           path: 'berichte',
@@ -69,6 +71,7 @@ const config: Config = {
           blogDescription: 'Berichte und Geschichten aus Rössing',
           blogSidebarTitle: 'Alle Berichte',
           blogSidebarCount: 'ALL',
+          beforeDefaultRemarkPlugins: [remarkImageFigcaption],
         },
         theme: {
           customCss: './src/css/custom.css',
