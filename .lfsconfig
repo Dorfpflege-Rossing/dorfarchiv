@@ -1,3 +1,3 @@
 [lfs]
-	url = https:/003e082692b55760000000002:K0036M+YZ4SkZF6pPZrHtlPI+z8dIME@git-lfs-s3-proxy.levinkeller.de/s3.eu-central-003.backblazeb2.com/dorfarchiv-roessing
+	url = https://003e082692b55760000000002:K0036M+YZ4SkZF6pPZrHtlPI+z8dIME@git-lfs-s3-proxy.levinkeller.de/s3.eu-central-003.backblazeb2.com/dorfarchiv-roessing
 	fetchexclude = unterlagen/**
