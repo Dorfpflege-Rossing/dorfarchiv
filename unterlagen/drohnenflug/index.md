@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
-draft: true
 ---
 
 # Drohnenflug über Rössing
@@ -9,7 +8,11 @@ Luftaufnahmen von Rössing aus dem April 2025, aufgenommen mit einer Drohne.
 
 ## Autor
 
-Die Aufnahmen wurden von **Aaron Keuntje** erstellt.
+Die Aufnahmen wurden von **Jens Baumgarten aus Rössing** erstellt.
+
+## Verantwortung
+
+Die rechtliche Verantwortung für die Aufnahmen liegt bei **Levin Keller**, siehe [Impressum](../../impressum/).
 
 ## Aufnahmedatum
 
@@ -49,6 +52,6 @@ Die folgenden Videoaufnahmen stehen zum Download zur Verfügung:
 
 ## Lizenz
 
-Die Drohnenaufnahmen wurden von Aaron Keuntje unter der [Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de) veröffentlicht.
+Die Drohnenaufnahmen wurden von Jens Baumgarten aus Rössing unter der [Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de) veröffentlicht.
 
 Sie dürfen das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten sowie remixen, verändern und darauf aufbauen, auch kommerziell, solange Sie angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
