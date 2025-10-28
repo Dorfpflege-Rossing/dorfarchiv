@@ -22,7 +22,7 @@ April 2025
 
 Die folgenden Videoaufnahmen stehen zum Download zur Verfügung:
 
-- [DJI_0563.MP4](https:/git-lfs.archiv.xn--rssing-wxa.de/download/55cc83f23e037bd90f4eaa704063a40a520ea445f369e7c2e625f80a16593419/DJI_0563.MP4)
+- [DJI_0563.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/55cc83f23e037bd90f4eaa704063a40a520ea445f369e7c2e625f80a16593419/DJI_0563.MP4)
 - [DJI_0564.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/573dc19fa62cf8fea461acc62b9e78f0eb52733349aafe5c3298e4e0031d63b0/DJI_0564.MP4)
 - [DJI_0565.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/6ec5967897f64c73720e78f5cbea9eb158a6f6117d532c50b3ca5823572c22e8/DJI_0565.MP4)
 - [DJI_0566.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/23b9e46942b94f619f5b85f9d708f884873fcef107834d71dae6b500a3c8d5f9/DJI_0566.MP4)
@@ -35,7 +35,7 @@ Die folgenden Videoaufnahmen stehen zum Download zur Verfügung:
 - [DJI_0575.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/183f872204c1804adcaf67c31a3c7a07eeb642e16b54f986577c74b5cfb439b8/DJI_0575.MP4)
 - [DJI_0576.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/34785a50fcb6a184b6e9b751f51b47895980cc2fc3d85a6bd00e7de8c9b8df3e/DJI_0576.MP4)
 - [DJI_0577.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/98c82edafd194c3dc5e025221b54f1c569e2837b9bcef70809dd66452a8f6959/DJI_0577.MP4)
-- [DJI_0578.MP4](https://git-lfs-s-proxy.levinkeller.de/download/158c3b97b23a23151c0d09ac1cccd5d5f679ae7a79c215722aff43c1d2e3c703/DJI_0578.MP4)
+- [DJI_0578.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/158c3b97b23a23151c0d09ac1cccd5d5f679ae7a79c215722aff43c1d2e3c703/DJI_0578.MP4)
 - [DJI_0579.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/20d0e42aeea2d3b7ea13a0031364e4bf8f337e2e908c20c474e56f69efc3c26d/DJI_0579.MP4)
 - [DJI_0580.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/03b7c1e2b8b6bcb21b67acf4ba3c065efaa6a6ef81f83147c14fe4cfefd53d4f/DJI_0580.MP4)
 - [DJI_0583.MP4](https://git-lfs.archiv.xn--rssing-wxa.de/download/3057bc0a88201e390f4a25f36bc0b959f8a44d75be49600fba27aa5a66868e88/DJI_0583.MP4)
