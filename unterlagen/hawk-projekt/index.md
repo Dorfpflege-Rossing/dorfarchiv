@@ -41,11 +41,11 @@ Für Fachleute und Interessierte mit CAD-Software stehen zusätzliche Planungsun
 
 - **[Lageplan Rössing Grundlage](./lageplan-grundlage.dwg)** (DWG, 1.9 MB)
 - **[Plan Baualter und Grundlage](./baualter-grundlage.dwg)** (DWG, 5.9 MB)
-- **[Lageplangrundlage Adobe Illustrator](https://git-lfs-s3-proxy.levinkeller.de/download/0e285755585084d90b2b700cc586767cb08dde1e7a8d2475d7a684ee7c9a118c/lageplan-grundlage-illustrator.zip?keyId=003e082692b55760000000002&appKey=K0036M%2BYZ4SkZF6pPZrHtlPI%2Bz8dIME)** (ZIP, 17 MB)
+- **[Lageplangrundlage Adobe Illustrator](https://git-lfs.archiv.xn--rssing-wxa.de/download/0e285755585084d90b2b700cc586767cb08dde1e7a8d2475d7a684ee7c9a118c/lageplan-grundlage-illustrator.zip)** (ZIP, 17 MB)
 
 ### InDesign-Projekt
 
-- **[Komplettes InDesign-Projekt](https://git-lfs-s3-proxy.levinkeller.de/download/9c9e18d72882b039fc5bfbdb0a41e197b5ea550a4074cb76836a0473f1507c5e/indesign-projekt.zip?keyId=003e082692b55760000000002&appKey=K0036M%2BYZ4SkZF6pPZrHtlPI%2Bz8dIME)** (ZIP, 244 MB)
+- **[Komplettes InDesign-Projekt](https://git-lfs.archiv.xn--rssing-wxa.de/download/9c9e18d72882b039fc5bfbdb0a41e197b5ea550a4074cb76836a0473f1507c5e/indesign-projekt.zip)** (ZIP, 244 MB)
 
   Das vollständige InDesign-Projekt mit allen Layoutdateien, platzierten Bildern, PDFs und Schriften. Dies ist der Quellcode für die oben verlinkte PDF-Datei "HAWK Studienprojekt Rössing - Dorfstudie". Enthält die `.indd`/`.idml` Projektdateien sowie die Ordner `Links/` und `Document fonts/`.
 
