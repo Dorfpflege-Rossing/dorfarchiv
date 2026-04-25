@@ -1,0 +1,39 @@
+---
+title: "200 Jahre jüdische Geschichte in Rössing (1)"
+date: 2012-03-08
+authors:
+  - helga_fredebold
+tags: [juedische-geschichte, historie]
+description: "Der kleine jüdische Friedhof am Rande des Dorfes, am Kirschenbrink, der alten Hildesheimer Straße, erinnert daran, daß es auch in Rössing früher jüdische Einwoh"
+source: https://fredebold.blogspot.com/2012/03/200-jahre-judische-geschichte-in.html
+---
+
+Der kleine jüdische Friedhof am Rande des Dorfes, am Kirschenbrink, der alten Hildesheimer Straße, erinnert daran, daß es auch in Rössing früher jüdische Einwohner gegeben hat. Zwar steht auf den sechs Grabsteinen, die dort noch vorhanden sind, nur der Name Blumenthal, aber aus alten Akten geht hervor, daß hier vor etwa 2OO Jahren noch andere jüdische Familien im Ort gelebt haben. Es war nur eine kleine Gruppe, aber es ist sehr interessant, einmal dem Schicksal dieser Menschen nachzugehen.
+
+<!--truncate-->
+
+# Allgemeiner historischer Rückblick
+
+Die Juden in Deutschland lebten von jeher in einer verminderten rechtlichen Stellung. Im Mittelalter unterstanden sie dem kaiserlichen Judenregal (dem Recht, Juden aufzunehmen). Das bedeutete, daß sie dem Kaiser und König einen *goldenen Opferpfennig* für ihren Aufenthalt im Reich zahlen mußten. Dieses Judenregal ging in vielen Fällen als kaiserliches Privileg an die Kurfürsten und sonstigen Territorialfürsten über. Aber diese Tatsache besserte keineswegs den rechtlichen Status der Juden. Bald fiel es dem einen kleinen Landesherren ein die Juden zuzulassen, bald ließ er sie wieder vertreiben, der Willkür waren Tür und Tor geöffnet.
+
+Auch der Bischof von Hildesheim besaß das Judenregal, das er **1428** an den Rat der Altstadt verpfändete. Durch hohe Sondersteuern verschlechterte sich die Lage der Juden derart drastisch, daß diese nach Braunschweig flüchteten, wo die Judengesetze zu dieser Zeit liberaler waren. Seit **1457** gab es für ca. 5O Jahre praktisch keine jüdische Gemeinde mehr in Hildesheim.
+
+# Die rechtliche Stellung der Juden in den welfischen Fürstentümern
+
+**1345**  Herzog Magnus hatte die Juden in seinen Schutz genommen. Einige Jahre später,   als die Pest hier wütete, verfolgte man sie hart und verwies sie des Landes, weil man sie für den *Schwarzen Tod*“ verantwortlich machte
+
+**1375**   sie wurden von den Herzögen Wenzeslaus und Albrecht wieder in Hannover zugelassen, wo ihnen der Aufenthalt vorher verboten war
+
+**1553** Herzog Erich II vertrieb sie, weil sie „Gott, Jesus und alle gläubigen Christen in ihren Synagogen verflucht und geschmäht hätten". Ein paar Jahre später wurden sie wieder zugelassen
+
+**1614**   als die Landstände von Herzog Friedrich Ulrich erneut die Vertreibung der Juden verlangten, entdeckte dieser die Juden als geschätzte Einnahmequelle. Gegen hohe Geldzahlungen gewährte er einer ganzen Anzahl von ihnen Schutz- und Aufenthaltsrecht in Hannover. Da sie keine vollen bürgerlichen Rechte hatten, waren sie praktisch unbegrenzt besteuerbar und auch sonst einer ganzen Reihe von Beschränkungen unterworfen. Beim Überschreiten von Stadt- und Landesgrenzen mußten sie im Gegensatz zu den christlichen Einwohnern Leibzoll bezahlen
+
+Es wurden auch Versuche unternommen, die in Sitte und Art so fremdartig erscheinenden Juden zu Christen zu machen. Aber dem setzten die Juden nach wie vor die Unabänderlichkeit ihres Religionsgesetzes und ihrer religiösen Formen entgegen
+
+**1622**   im Calenbergischen wurde ihnen der Besuch von Synagogen untersagt und sie wurden zeitweilig gezwungen, christliche Kirchen zu besuchen, weil sie andernfalls mit hohen Strafen belegt wurden
+
+**1673**   in Hannover ereignete sich zum wiederholten Male eine Freveltat, bei der von dem jüdischen Friedhof auf dem Sandberge vor dem Steintore widerrechtlich Sand abgefahren und Gräber und Grabsteine beschädigt wurden. Der hochgeachtete und später zum Hof- und Kammeragenten ernannte Hofjude Leffmann Behrens beklagte sich bitter bei den Herzögen. Den Missetätern wurden strenge Strafen angedroht und den Juden erneut das Recht auf die Unversehrtheit ihres Friedhofes bestätigt
+
+1)     Dr. jur. Abraham Löb, Frankfurt 19O8: Rechtsverhältnisse der Juden im ehemaligen Königreiche und der jetzigen Provinz Hannover
+
+2)   M. Zuckermann, Hannover 1912 Kollektanea zur Geschichte der Juden im Hannoverland
