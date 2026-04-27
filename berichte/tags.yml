@@ -13,27 +13,3 @@ dorfstudie:
 architektur:
   label: Architektur
   description: Architektonische Projekte und Planungen
-
-historie:
-  label: Historie
-  description: Geschichtliche Beiträge und historische Studien zu Rössing
-
-ortsgeschichte:
-  label: Ortsgeschichte
-  description: Beiträge zur Ortsgeschichte Rössings
-
-juedische-geschichte:
-  label: Jüdische Geschichte
-  description: 200 Jahre jüdische Geschichte in Rössing – Reihe von Helga Fredebold
-
-meierding:
-  label: Meierding
-  description: Beiträge zum Meierding und Meierdingsgericht in Rössing
-
-herren-von-roessing:
-  label: Herren von Rössing
-  description: Beiträge zur Adelsfamilie der Herren von Rössing
-
-kirchengeschichte:
-  label: Kirchengeschichte
-  description: Beiträge zur Kirchen- und Religionsgeschichte
