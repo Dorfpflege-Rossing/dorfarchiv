@@ -97,7 +97,7 @@ Bei dieser Art Verträge war folgendes üblich:
 
 Als am 6. September 1940 das Synagogengrundstück in
 Eldagsen verkauft wurde, wurde der Vertrag ebenfalls vor Dr. Ries in Hannover
-abgeschlossen. Als sich die Synagogengmeinde über den geringen Verkaufspreis
+abgeschlossen. Als sich die Synagogengemeinde über den geringen Verkaufspreis
 von 2.000 RM beschwerte, wurde ihr mitgeteilt, daß die Synagogengemeinde als
 Verkäuferin sowieso nur 500 RM davon bekäme, 1.500 RM gingen an das Reich als
 Ausgleichszahlung. Außerdem muß der Käufer noch 200 RM an den Makler bezahlen.
@@ -116,7 +116,7 @@ bepflanzt, der auch geschnitten wird, und die Grabsteine wurden gereinigt.
 
 Der Friedhof wurde neu eingezäunt, er erhielt
 verschließbare Pforten, und ein holzgeschnitztes Schild „Judenfriedhof“ macht
-auf den etwas versteckten Standort. aufmerksam.
+auf den etwas versteckten Standort aufmerksam.
 
 .
 

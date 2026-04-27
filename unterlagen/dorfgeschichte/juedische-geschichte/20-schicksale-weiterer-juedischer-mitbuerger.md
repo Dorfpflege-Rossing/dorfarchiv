@@ -7,8 +7,6 @@ description: "Familienschicksale: Dramatische Flucht aus Nazi-Deutschland. Lore 
 
 # Familienschicksale: Dramatische Flucht aus Nazi-Deutschland.
 
-# 
-
 # Lore Blumenthal berichtet 1995:
 
 *Ich schreibe
@@ -112,7 +110,7 @@ verstärkt die Mühen, eine Ausreisemöglichkeit aus Deutschland zu finden. Papa
 versuchte es mit jedem erdenkbaren Land: Argentinien, Chile, Brasilien  usw. Aber alle Staaten hatten ihre Grenzen
 geschlossen. In ihrer Verzweiflung beschloß die Familie, einen illegalen Ausweg
 zu finden. Man wollte nachts durch den Wald über die Grenze nach Belgien
-marschieren. Menschen, die uns „über die grüne Grenze“ brngen wollten, waren
+marschieren. Menschen, die uns „über die grüne Grenze“ bringen wollten, waren
 gefunden, bezahlt und alles war vorbereitet. In letzter Minute gab Papa einer
 bösen Ahnung nach und es wurde entschieden, die Sache abzublasen. Alle Leute,
 die in dieser Nacht den gleichen Weg wählten, wurden erfasst und erschossen.*
