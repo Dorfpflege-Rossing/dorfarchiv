@@ -2,15 +2,15 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - namespace.yaml
-  - deployment.yaml
-  - service.yaml
-  - ingress.yaml
+- namespace.yaml
+- deployment.yaml
+- service.yaml
+- ingress.yaml
 
 # Der konkrete Image-Tag wird von der CI via
 #   kustomize edit set image ghcr.io/dorfpflege-roessing/dorfarchiv=...:<git-sha>
 # auf den gebauten Multi-Arch-Tag gesetzt und nach main committet.
 images:
-  - name: ghcr.io/dorfpflege-roessing/dorfarchiv
-    newName: ghcr.io/dorfpflege-roessing/dorfarchiv
-    newTag: latest
+- name: ghcr.io/dorfpflege-roessing/dorfarchiv
+  newName: ghcr.io/dorfpflege-roessing/dorfarchiv
+  newTag: 06c4ddf6b7fe1f632d16009afcaa58f59faa87e2
