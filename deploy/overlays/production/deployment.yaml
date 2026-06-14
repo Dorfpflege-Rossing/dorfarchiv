@@ -19,7 +19,7 @@ spec:
         - name: web
           # Image-Referenz wird von kustomize (images:) verwaltet — bare ref.
           # Öffentliche Seite: nginx lauscht direkt auf 8080 (kein oauth2-proxy).
-          image: ghcr.io/dorfpflege-rossing/dorfarchiv
+          image: ghcr.io/dorfpflege-roessing/dorfarchiv
           ports:
             - containerPort: 8080
               name: http

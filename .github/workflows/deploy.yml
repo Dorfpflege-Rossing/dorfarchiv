@@ -18,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  IMAGE: ghcr.io/dorfpflege-rossing/dorfarchiv
+  IMAGE: ghcr.io/dorfpflege-roessing/dorfarchiv
 
 jobs:
   # 1) Pro Architektur ein natives Image bauen und als per-arch Tag pushen.

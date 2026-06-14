@@ -8,9 +8,9 @@ resources:
   - ingress.yaml
 
 # Der konkrete Image-Tag wird von der CI via
-#   kustomize edit set image ghcr.io/dorfpflege-rossing/dorfarchiv=...:<git-sha>
+#   kustomize edit set image ghcr.io/dorfpflege-roessing/dorfarchiv=...:<git-sha>
 # auf den gebauten Multi-Arch-Tag gesetzt und nach main committet.
 images:
-  - name: ghcr.io/dorfpflege-rossing/dorfarchiv
-    newName: ghcr.io/dorfpflege-rossing/dorfarchiv
+  - name: ghcr.io/dorfpflege-roessing/dorfarchiv
+    newName: ghcr.io/dorfpflege-roessing/dorfarchiv
     newTag: latest
