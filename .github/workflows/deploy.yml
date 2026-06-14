@@ -1,0 +1,113 @@
+name: Build & Deploy
+
+# Variant B: Multi-Arch-Image auf NATIVEN Runnern bauen (amd64 + arm64),
+# per-arch pushen, mit `docker buildx imagetools create` zu einem Manifest
+# zusammenführen — niemals QEMU. Danach den Image-Tag im Production-Overlay
+# bumpen und nach main committen ([skip ci]-Loop-Guard). Flux deployt.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "deploy/**"
+      - "**/*.md"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  IMAGE: ghcr.io/dorfpflege-rossing/dorfarchiv
+
+jobs:
+  # 1) Pro Architektur ein natives Image bauen und als per-arch Tag pushen.
+  build:
+    strategy:
+      fail-fast: true
+      matrix:
+        include:
+          - arch: amd64
+            runner: ubuntu-latest
+          - arch: arm64
+            runner: ubuntu-24.04-arm
+    runs-on: ${{ matrix.runner }}
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build & push (${{ matrix.arch }})
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          platforms: linux/${{ matrix.arch }}
+          push: true
+          provenance: false
+          tags: ${{ env.IMAGE }}:${{ github.sha }}-${{ matrix.arch }}
+          cache-from: type=gha,scope=${{ matrix.arch }}
+          cache-to: type=gha,scope=${{ matrix.arch }},mode=max
+
+  # 2) Per-arch Tags zu einem Multi-Arch-Manifest zusammenführen (kein QEMU).
+  merge:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create multi-arch manifest
+        run: |
+          docker buildx imagetools create \
+            --tag "${IMAGE}:${{ github.sha }}" \
+            --tag "${IMAGE}:latest" \
+            "${IMAGE}:${{ github.sha }}-amd64" \
+            "${IMAGE}:${{ github.sha }}-arm64"
+
+  # 3) Image-Tag im Production-Overlay bumpen und nach main committen.
+  bump:
+    needs: merge
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install kustomize
+        uses: imranismail/setup-kustomize@v2
+
+      - name: Bump image tag in production overlay
+        working-directory: deploy/overlays/production
+        run: kustomize edit set image "${IMAGE}=${IMAGE}:${{ github.sha }}"
+
+      - name: Commit & push bump
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Kein Image-Bump nötig."
+            exit 0
+          fi
+          git add deploy/overlays/production/kustomization.yaml
+          git commit -m "ci: deploy dorfarchiv ${{ github.sha }} [skip ci]"
+          git push

@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dorfarchiv
+  namespace: dorfarchiv
+  labels:
+    app: dorfarchiv
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dorfarchiv
+  template:
+    metadata:
+      labels:
+        app: dorfarchiv
+    spec:
+      containers:
+        - name: web
+          # Image-Referenz wird von kustomize (images:) verwaltet — bare ref.
+          # Öffentliche Seite: nginx lauscht direkt auf 8080 (kein oauth2-proxy).
+          image: ghcr.io/dorfpflege-rossing/dorfarchiv
+          ports:
+            - containerPort: 8080
+              name: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 3
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 10m
+              memory: 24Mi
+            limits:
+              memory: 64Mi

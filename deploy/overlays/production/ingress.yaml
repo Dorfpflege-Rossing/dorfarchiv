@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: dorfarchiv
+  namespace: dorfarchiv
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
+  # Öffentliche Seite — kein Zugriffsschutz. Ingress zeigt direkt auf nginx (8080).
+spec:
+  ingressClassName: traefik
+  tls:
+    - hosts:
+        - archiv.xn--rssing-wxa.de
+      secretName: dorfarchiv-tls
+  rules:
+    - host: archiv.xn--rssing-wxa.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: dorfarchiv
+                port:
+                  number: 8080
